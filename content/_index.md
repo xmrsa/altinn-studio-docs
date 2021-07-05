@@ -1,9 +1,9 @@
 ---
-title: Håndbok
-description: Lær om hvordan vi lager Altinn
+title: Utvikling
+description: Veien til en tjeneste i Altinn 3.0
 jumbotron: true
 type: "customFrontpage"
 ---
 
-# Håndbok
+# Utvikling
 

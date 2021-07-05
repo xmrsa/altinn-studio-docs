@@ -51,12 +51,19 @@ a[href^=http]:not([href*='localhost']):not([href*='docs.altinn.studio']):not([hr
     }
 }
 
+@media (min-width: 768px) {
+    .a-globalNav-main li:last-child > a {
+        border-bottom: solid;
+    }
+}
+
 @media (min-width: 992px) {
     .a-header  {
         padding-top: 33px;
     }
     .a-header .a-logo {
-        max-width: 210px;
+        max-width: 284px;
+        margin-top: 1px;
     }
     .a-globalNav .a-globalNav-logo {
         margin-left: 0;
@@ -93,10 +100,6 @@ a[href^=http]:not([href*='localhost']):not([href*='docs.altinn.studio']):not([hr
     text-transform: lowercase;
 }
 
-.a-globalNav-main li:last-child > a {
-    border-bottom: none;
-}
-
 body.adocs-design .a-globalNav-main li a[href*='/design/'] {
     border-bottom: solid white 3px;
 }
@@ -107,6 +110,84 @@ body.adocs-teknologi .a-globalNav-main li a[href*='/teknologi/'] {
 
 body.adocs-innhold .a-globalNav-main li a[href*='/innhold/'] {
     border-bottom: solid white 3px;
+}
+
+.a-globalNav-main .a-label {
+    margin-top:-18px;
+    padding: 2px 9px 0px 9px;
+}
+
+@media (min-width: 768px) {
+    .a-header-options .a-languageSwitcher,
+    .a-header-options .a-languageSwitcher:hover,
+    .a-header-options .a-languageSwitcher:focus,
+    .a-header-options .a-languageSwitcher:active {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .a-header-options .a-languageSwitcher:hover::before {
+        position: absolute;
+        top: -7px;
+        left: -18px;
+        width: calc(100% + 36px);
+        height: calc(100% + 24px);
+        content: ' ';
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 50px;
+    }
+
+    .a-personSwitcher:focus,
+    .a-personSwitcher:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: #fff;
+        border-radius: 50px;
+    }
+
+    .a-header-options .a-languageSwitcher:focus::before,
+    .a-header-options .a-languageSwitcher:hover::before,
+    .a-header-options .a-personSwitcher:focus::before,
+    .a-header-options .a-personSwitcher:hover::before {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .a-header-options .nav-link.a-personSwitcher,
+    .nav-pills .nav-item.show .nav-link.a-languageSwitcher {
+        color: #fff;
+    }
+}
+
+.a-header a, .a-globalNav-main .a-dropdown-languages li a {
+    color: #000;
+}
+
+/* Login link in topbar */
+.a-header-options {
+    margin-top: -2px;
+}
+
+.a-header-options .nav-link.a-personSwitcher {
+    padding: 8px 12px 8px 12px;
+}
+
+.an-login {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    .an-login {
+        display: block;
+    }
+}
+
+.a-personSwitcher:hover,
+.a-personSwitcher .a-personSwitcher-icon {
+    color: #fff;
+}
+
+.a-personSwitcher .a-personSwitcher-name span {
+    font-weight: 700;
 }
 
 /* Jumbotron */
@@ -182,6 +263,13 @@ li > label {
 .adocs-caseBlock a:after {
     filter: brightness(0) invert(1);
     -webkit-filter: brightness(0) invert(1);
+}
+
+.adocs-caseBlock .a-btn-border {
+    align-self: flex-start;
+    font-family: "DIN-reg";
+    font-weight: bold;
+    padding: 6px 24px 6px 24px;
 }
 
 /* Featured blocks */ 

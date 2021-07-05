@@ -13,39 +13,107 @@
 
         <!-- Begin .a-globalNav -->
         <nav class="a-globalNav " id="primary-nav">
-          <a href="/" class="a-globalNav-logo">
-            <img src="/images/altinn-logo-white.svg" alt="Altinn logo"
-              class="an-logo adocs-logo">
-
-            <span class="adocs-logo-text">
-              <span>/håndbok</span>
-              <span class="sr-only">Til forsiden</span>
-            </span>
+          <a href="https://www.altinndigital.no/" class="a-globalNav-logo">
+            <img src="/images/d-altinndigital-logo-white.svg" alt="Altinn digitalisering logo" class="a-logo a-modal-top-logo ">
+            <span class="sr-only">Til forsiden</span>
           </a>
 
           <button class="navbar-toggler d-md-none" type="button"><span class="sr-only">Vis/skjul meny</span></button>
           <div class="collapse navbar-toggleable-sm a-globalNav-main" id="exCollapsingNavbar2">
             <ul id="exCollapsingNavbar">
-             
+              <li class="d-md-none">
+                <div class="form-group a-form-group">
+                  <label class="a-form-label sr-only" for="text-input-search-12">
+                    Søk etter innhold
+                  </label>
+                  <div class="a-form-group-items input-group">
+                    <input type="text" class="form-control a-hasButton" id="mobilesearch-by" placeholder="Søk etter innhold">
+                    <div class="input-group-append">
+                      <button class="btn btn-secondary" type="submit" name="search-button-mob" id="mobilesearch-submit" aria-label="Search">
+                        <i class="ai ai-search" aria-hidden="true">
+                          <span class="sr-only">Søk</span>
+                        </i>
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+
               <li>
-                <a class="a-hvr-underline" href="/design/">
-                  design
+                <a class="a-hvr-underline" href="https://www.altinndigital.no/produkter/">
+                  produkter
                 </a>
               </li>
               <li>
-                <a class="a-hvr-underline " href="/teknologi/">
-                  teknologi
+                <a class="a-hvr-underline " href="https://www.altinndigital.no/eksempler/">
+                  eksempler
                 </a>
               </li>
               <li>
-                <a class="a-hvr-underline" href="/innhold/">
-                  innhold
-                </a>
+                <a class="a-hvr-underline" href="/">
+                  utvikling</a>
+                <span class="badge badge-primary a-label badge-pill">3.0</span>
               </li>
             </ul>
           </div>
 
         </nav> <!-- End .a-globalNav -->
+
+        <ul class="nav nav-pills a-header-options" id="nav-list">
+          <li class="nav-item dropdown d-none d-md-block">
+              <a lang="en" class="nav-link dropdown-toggle a-languageSwitcher" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                  Language
+              </a>
+              <div class="dropdown-menu a-dropdown-languages a-dropdownTriangle">
+                      <a class="dropdown-item" href="/">
+                          <img src="/images/gb.svg" class="a-iconLeft a-flag" alt="">
+                          <p>
+                              <span class="a-h3">Language support coming soon</span><br>
+                              <span>The content will eventually be available in both English and Norwegian</span>
+                          </p>
+                      </a>
+                      <!--
+                      <a class="dropdown-item" href="/">
+                          <img src="/images/no.svg" class="a-iconLeft a-flag" alt="">
+                          <p>
+                              <span class="a-h3">Bokmål</span><br>
+                              <span>Alt innhold er tilgjengelig på bokmål.</span>
+                          </p>
+                      </a>
+                      <a class="dropdown-item" href="/en/">
+                          <img src="/images/gb.svg" class="a-iconLeft a-flag" alt="">
+                          <p>
+                              <span class="a-h3">English</span><br>
+                              <span>Some content is available in english.</span>
+                          </p>
+                      </a>
+                      <a class="dropdown-item" href="/nn/">
+                          <img src="/images/no.svg" class="a-iconLeft a-flag" alt="">
+                          <p>
+                              <span class="a-h3">Nynorsk</span><br>
+                              <span>Noko av innhaldet er tilgjengeleg på nynorsk.</span>
+                          </p>
+                      </a>
+                      -->
+              </div>
+          </li>
+  
+          <li class="nav-item">
+                  <button class="nav-link dropdown-toggle a-personSwitcher" type="button" data-toggle="dropdown" onclick="location.href = 'https://www.altinndigital.no/oversikt/'" aria-haspopup="true" aria-expanded="false">
+                      <span class="a-personSwitcher-name">
+                          <span class="d-block">Logg inn</span>
+                          <span class="d-block"></span>
+                      </span>
+                      <i class="ai ai-keyhole-circle a-personSwitcher-icon a-js-onboardingTarget-1" aria-hidden="true">
+                         
+                      </i>
+                      <span class="sr-only">Logg inn/Min profil</span>
+                  </button>
+          </li>
+  </ul>
+
+        
         
       </div><!-- End .col -->
     </div> <!-- End .row -->
