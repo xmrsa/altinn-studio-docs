@@ -27,6 +27,14 @@ a[href^=http]:not([href*='localhost']):not([href*='docs.altinn.studio']):not([hr
     display: none;
 }
 
+.a-iconText-text a[href^=http]:not([href*='altinn.no']):not([href*='basefarm.net']):not([href*='local.altinn'])::after {
+    display: inline-block;
+    width: 0;
+    margin-left: 0;
+    content: '';
+}
+
+
 .a-illustration-icon {
     background: #022F51;
 }
@@ -196,6 +204,16 @@ body.adocs-innhold .a-globalNav-main li a[href*='/innhold/'] {
     background-size: 100%;
 }
 
+/* Lists */
+
+.a-text ul.connected-bullets {
+    margin-left: 36px;
+}
+
+ul.connected-bullets li::after {
+    background: #fff;
+}
+
 /* Scrollable tables */
 #body-inner table {
     display: block;
@@ -265,12 +283,11 @@ li > label {
     -webkit-filter: brightness(0) invert(1);
 }
 
-.adocs-caseBlock .a-btn-border {
+.adocs-caseBlock .a-linkFeatured {
     align-self: flex-start;
-    font-family: "DIN-reg";
-    font-weight: bold;
-    padding: 6px 24px 6px 24px;
-}
+    color: #022F51;
+    height: 32px;
+ }
 
 /* Featured blocks */ 
 
