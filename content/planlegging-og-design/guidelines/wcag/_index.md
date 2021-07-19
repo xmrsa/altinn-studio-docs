@@ -24,6 +24,7 @@ Sjekk at lenker, label og knapper har forklarende tekster. Ta en vurdering på o
 Det er viktig at man er bevisst på om det blir brukt knapper eller lenker, da skjermlesere kan få problemer med å tolke funksjonaliteten. 
 
 - **Feilmeldinger** <br>
+<<<<<<< HEAD
 Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/design/#-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
 <!--
 - alt- og title-attributter skal brukes til å gi tilleggsinformasjon til bilder og andre objekter.
@@ -31,6 +32,10 @@ Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guid
 - Ulike typer lenker skal brukes riktig (disse har ulikt design basert på om de står sammen med annen tekst, eller om de lenker til interne/eksterne sider)
 - Alle sidemaler skal tåle tekststørrelsesendring på opptil 200% uten å brekke eller at tekst forsvinner.
 -->
+=======
+Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/innhold/#formulering-av-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
+
+>>>>>>> bd3f0b72d93cbd5a3cfd1da698b7d19d8231ab55
 <br>
 
 {{% panel theme="warning" %}}
