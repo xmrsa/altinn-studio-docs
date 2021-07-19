@@ -25,12 +25,7 @@ Det er viktig at man er bevisst på om det blir brukt knapper eller lenker, da s
 
 - **Feilmeldinger** <br>
 Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/innhold/#formulering-av-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
-<!--
-- alt- og title-attributter skal brukes til å gi tilleggsinformasjon til bilder og andre objekter.
-- label-element skal ha et for-attributt som matcher skjemakontrollen det tilhører, med mindre label omslutter input-feltet.
-- Ulike typer lenker skal brukes riktig (disse har ulikt design basert på om de står sammen med annen tekst, eller om de lenker til interne/eksterne sider)
-- Alle sidemaler skal tåle tekststørrelsesendring på opptil 200% uten å brekke eller at tekst forsvinner.
--->
+
 <br>
 
 {{% panel theme="warning" %}}
