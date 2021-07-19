@@ -437,3 +437,12 @@ li > label {
     font-size: 16px; }
     .a-st-iconLabel a {
       font-size: 16px; }
+
+
+
+/* Panel */
+
+.panel .panel-body,
+.panel.panel-primary .panel-body {
+    padding-top: 36px;
+}

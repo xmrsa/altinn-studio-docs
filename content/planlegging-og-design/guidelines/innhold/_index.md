@@ -1,7 +1,7 @@
 ---
 title: Innhold
 description: Retningslinjene skal sørge for at vi får et ensrettet språk og forståelig innhold i tjenestene som lages i Altinn. 
-weight: 1
+weight: 20
 ---
 
 Som hovedregel bør du bruke retningslinjene fra [Språkrådet](https://www.sprakradet.no/klarsprak/om-skriving/generelle-skriverad-bokmal/) når du skriver. I tillegg har vi definert noen mer spesifikke regler for Altinn som vi anbefaler at du følger. 
@@ -15,12 +15,14 @@ Brukeren skal ikke trenge å få feilmelding for å forstå hva som skal til for
 Som hovedregel bør man kun spørre om informasjon som er helt nødvendig å innhente. Du kan derfor opplyse i starten av skjemaet om at alle felt er påkrevde og må fylles ut (for å slippe å markere alle som påkrevde). Frivillige felt kan eventuelt markeres med "frivillig" i selve labelen til feltet.
 
 ### Formulering av feilmeldinger
-Vær kort og tydelig i formuleringen av feilmeldingene og sørg for at brukeren vet hva som må gjøres for å komme videre. Å skrive "Ugyldig input" gir ikke brukeren en forklaring på hva som er feil. 
+Vær kort og tydelig i formuleringen av feilmeldingene og sørg for at brukeren vet hva som må gjøres for å komme videre. Å skrive "Feltet er påkrevd" gir ikke brukeren en forklaring på hva som er feil. 
 
 Eksempel på forklarende feilmeldinger: 
 - "Postnummer må ha 4 siffer"
 - "Du må velge minst ett leveringsalternativ"
 - "For å sende inn skjemaet må du bekrefte at navnet er korrekt ved å huke av i avkrysningsboksen"
+
+Les mer om å formidle feil i skjema på [UU-tilsynets nettsider](https://www.uutilsynet.no/wcag-standarden/skjema/38#formidle_feil_i_skjema).
 
 ### Fordel innholdet i flere steg og bruk sporvalg
 Dersom du har mye innhold må skjemaet deles opp i flere sider. Hver side bør kun inneholde én informasjonsdel. Brukeren skal ikke trenge å ta mer en en avgjørelse per side. Se eksempel: [Starte enkeltpersonforetak](dsf).

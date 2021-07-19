@@ -32,11 +32,13 @@ For å komme i gang følger du stegene som er beskrevet i introduksjonen på fø
 
 Når designeren/fagpersonen har designet ferdig skjemaet, og det er brukertestet, kan det videre brukes som spesifikasjon til det utviklerne skal lage i Altinn Studio.  
 
-NB: Skal du lage tjenester i egen løsning, der Altinn er usynlig for brukeren, bør du heller bruke etatens eget designsystem for å prototype tjenesten. 
+{{% panel %}}
+**NB:** Skal du lage tjenester i egen løsning, der Altinn er usynlig for brukeren, bør du heller bruke etatens eget designsystem for å prototype tjenesten. 
+{{% /panel %}}
 
 <br>
 
-<a href="/skjemaoversikt/" class="a-linkFeatured ">
+<a href="/planlegging-og-design/brukertest/" class="a-linkFeatured ">
     Neste steg: Brukertesting
     <i class="ai ai-sm ai-nw ai-nw-right ai-arrowright" aria-hidden="true"></i>
 </a>

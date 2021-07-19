@@ -5,7 +5,7 @@ description: Hvordan opprette,  teste, produksjonssette og vedlikeholde apper i 
 weight: 30
 ---
 
-Vi flytter over innholdet fra https://altinn.github.io/docs/altinn-studio/
+Vi flytter over innholdet fra https://altinn.github.io/docs/altinn-studio/ , men venter til alt annet er klart, slik at vi får siste versjon av innholdet der.
 
 
 {{% panel %}}

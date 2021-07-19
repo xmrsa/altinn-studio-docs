@@ -2,10 +2,10 @@
 title: WCAG
 description: God tilgjengelighet hjelper mennesker med funksjonshemninger å oppfatte innholdet vårt på en meningsfull måte. Ved å bruke Altinn 3 får du mye på kjøpet, men noen ting må du fortsatt huske på selv. 
 weight: 7
-weight: 3
+weight: 30
 ---
 
-Forskrift om universell utforming av IKT-løsninger stiller krav om at nettsider må oppfylle 35 av 61 suksesskriterier i standarden [Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0](https://www.w3.org/Translations/WCAG20-no/). Sjekk ut [minimumskravene](https://www.uutilsynet.no/wcag-standarden/wcag-20-standarden/86) på difi som er omfattet av forskriften.
+Forskrift om universell utforming av IKT-løsninger stiller krav om at nettsider må oppfylle 35 av 61 suksesskriterier i standarden [Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0](https://www.w3.org/Translations/WCAG20-no/). Sjekk ut [minimumskravene](https://www.uutilsynet.no/wcag-standarden/wcag-20-standarden/86) på UU-tilsynet som er omfattet av forskriften.
 
 
 
@@ -13,29 +13,31 @@ Forskrift om universell utforming av IKT-løsninger stiller krav om at nettsider
 ## Sjekkliste
 
 - **Innholdsstruktur** <br>
-Har du hoppet rett fra overskrift1 til overskrift3? Eller har det sneket seg inn et tomt overskriftselement? For å oppdage feil i innholdstrukturen kan det være nyttig å benytte “Wave” som er et utvidelsesverktøy til chrome. [Last ned Wave til Chrome], installer og ikonet vil dukke opp øverst til høyre i nettleseren.
+Sjekk at du har en logisk struktur på overskrifter (H1 - H4), og at du ikke har noen tomme overskriftselementer. Det er fort gjort å glemme et nivå. For å oppdage feil i innholdstrukturen kan det være nyttig å benytte “Wave” som er et utvidelsesverktøy til chrome. [Last ned Wave til Chrome], installer og ikonet vil dukke opp øverst til høyre i nettleseren.
 
 [Last ned Wave til Chrome]: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 
+- **Forklarende tekster og hjelpetekst** <br>
+Sjekk at lenker, label og knapper har forklarende tekster. Ta en vurdering på om ekstra beskrivelser og hjelpetekster må kobles til input elementet.
+
 - **Knapp vs lenke** <br>
-Det er viktig at man er bevisst på om det blir brukt knapper eller lenker, da skjermlesere kan få problemer med å tolke funksjonaliteten.
+Det er viktig at man er bevisst på om det blir brukt knapper eller lenker, da skjermlesere kan få problemer med å tolke funksjonaliteten. 
+
+- **Feilmeldinger** <br>
+Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/innhold/#formulering-av-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
 <!--
 - alt- og title-attributter skal brukes til å gi tilleggsinformasjon til bilder og andre objekter.
 - label-element skal ha et for-attributt som matcher skjemakontrollen det tilhører, med mindre label omslutter input-feltet.
 - Ulike typer lenker skal brukes riktig (disse har ulikt design basert på om de står sammen med annen tekst, eller om de lenker til interne/eksterne sider)
 - Alle sidemaler skal tåle tekststørrelsesendring på opptil 200% uten å brekke eller at tekst forsvinner.
 -->
+<br>
 
-{{% panel %}}
+{{% panel theme="warning" %}}
 **NB:** Skal du lage tjenester i egen løsning, der Altinns grensesnitt er usynlig for brukeren, må du selv huske på å ta hensyn til øvrige [WCAG-krav](https://www.uutilsynet.no/wcag-standarden/nettsteder/711). 
 {{% /panel %}}
 
-## Interaksjon
-
-Fargen <code>$blue</code> er dedikert til elementer som brukeren kan interagere med på altinn.no, f.eks lenker, knapper og navigasjon. Denne fargen skal ikke bli brukt i andre sammenhenger.
-
-<span class="ap-swatch" style="background: #1eaef7;"><span class="ap-colorLabel">$blue: <br>#1eaef7;</span></span>
-
+## Hvordan teste
 
 ## Kontrast
 

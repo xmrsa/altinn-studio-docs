@@ -1,6 +1,7 @@
 ---
 title: Innsikt og brukerbehov
-description: I Altinn setter vi brukerbehov først og produktene våre er derfor utviklet med brukerne i sentrum. Men for at tjenestene skal bli gode til slutt, trenger vi at etater og kommunene som bruker Altinn også har fokus på brukerne i utviklingen av de spesifikke tjenestene.  
+description: Først av alt bør du samle prosjektgruppen og starte med å definere problemet. Hva er det dere skal løse og hvem skal det løses for?
+
 weight: 1
 ---
 
@@ -17,16 +18,19 @@ weight: 1
   </li>
   <li>
     <strong>Kontaktpunkter for brukeren</strong>
-    Sett opp en oversikt/brukerreise over brukerens kontaktpunkt. Er de fleste kontaktpunkter  på altinn.no, eller på egne sider? Skal Altinn være skjult for sluttbruker eller er det Altinns grensesnitt som skal benyttes? Stemmer dette med hvordan brukeren forventer å få løst sin oppgave?
+    Sett opp en oversikt/brukerreise over brukerens kontaktpunkt. Eksempel på hvordan en fragmentert brukerreise kan fortone seg:
+    <br>
+    <a href="kontaktpunkter.png"><img class="float-right" src="kontaktpunkter.png" alt="Eksempel på kontaktpunkter for brukeren"></a>
+    <br>
+    Skal Altinn være skjult for sluttbruker eller er det Altinns grensesnitt som skal benyttes? Stemmer dette med hvordan brukeren forventer å få løst sin oppgave? Er det mulig å tilby brukerne den relevante delen av altinn i den konteksten de er i, i stedet for å sende dem frem og tilbake?
   </li>
   <li>
     <strong>Hva er databehovet?</strong>
-    Behovet for en digital løsning starter gjerne med at det er behov for å samle inn data. Start med å undersøke om andre har dataene du trenger og om disse er tilgjengelige for gjenbruk. Det kan du sjekke i Felles datakatalog. Hvis ikke - hvordan kan du spørre på en måte som krever minst mulig av brukerne? Noen ganger kan det være en idé å prøve noe annet enn opplagte løsninger hvor man spør i form av et skjema.
+    Behovet for en digital løsning starter gjerne med at det er behov for å samle inn data. Start med å undersøke om andre har dataene du trenger og om disse er tilgjengelige for gjenbruk. Det kan du sjekke i <a href="https://data.norge.no/">Felles datakatalog</a>. Hvis ikke - hvordan kan du spørre på en måte som krever minst mulig av brukerne? Noen ganger kan det være en idé å prøve noe annet enn opplagte løsninger hvor man spør i form av et skjema.
   </li>
 </ul>
-
+<!--
 For å gjøre det enklere for deg å planlegge tjenesten din har vi laget en Miro-mal du kan bruke som utganspunkt. Dersom du ikke har Miro fra før av , kan du opprette en gratis konto her: https://miro.com/signup/
-
 <div class="a-iconText a-iconText-shadow a-bgGreyLight a-iconText-minusBothMargins mb-4 mt-4">
   <div class="a-iconText-icon">
       <i class="ai ai-download" aria-hidden="true"></i>
@@ -36,13 +40,13 @@ For å gjøre det enklere for deg å planlegge tjenesten din har vi laget en Mir
           Last ned Miro-Kit
       </a>
   </div>
-</div>
+</div>-->
 
-Når du har kommet det gjennom innsiktsfasen og definert brukerbehov, anbefaler vi at du setter sammen en prototype i Figma som kan brukertestes på relevante brukere. 
+Når du har kommet deg gjennom innsiktsfasen og definert brukerbehov, anbefaler vi at du setter sammen en prototype som kan brukertestes på relevante brukere. Dersom du skal lage et skjema, kan du bruke vårt prototype-Kit for Figma. 
 
 <br>
 
-<a href="/prototypekit/" class="a-linkFeatured ">
+<a href="/planlegging-og-design/prototypekit/" class="a-linkFeatured ">
     Neste steg: Figma Prototype-Kit
     <i class="ai ai-sm ai-nw ai-nw-right ai-arrowright" aria-hidden="true"></i>
 </a>

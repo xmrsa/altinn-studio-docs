@@ -10,6 +10,7 @@ aliases:
  - /teknologi/altinnstudio/
 ---
 
+
 Altinn 3 have an open backlog on GitHub and the code is open source. Everybody can [create bugs], [request features] or [ask questions].
 
 
