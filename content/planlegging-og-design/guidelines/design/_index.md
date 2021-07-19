@@ -2,7 +2,10 @@
 title: Design
 description: De ulike komponentene er laget for at de skal passe sammen i en større helhet. Det er derfor viktig å følge retningslinjene for hvordan disse brukes for å oppnå et konsistent og gjenkjennbart uttrykk. 
 weight: 10
+toc: true
 ---
+
+<br>
 
 Målet vårt er å skape konsistens på tvers av tjenester som lages i Altinn Studio. Når brukere møter en ny tjeneste, har de med seg forventninger fra tidligere opplevelser. Når disse forventningene møtes, kreves det mindre av brukeren for å samhandle med komponentene, og det bygges selvtillit. Ved å ikke trenge å lære nye interaksjoner, vil brukerens fokus i større grad være på innholdet.
 
@@ -37,11 +40,27 @@ Altinns brukere ønsker både løsning der de er og en samlet oversikt. Og de b�
 
 {{% /panel %}}
 
+## Innhold i skjema
+Brukeren skal ikke trenge å få feilmelding for å forstå hva som skal til for å fylle ut skjemaet riktig. Dette bør tydelig komme frem i informasjonstekst i begynnelsen av skjemaet og i labels som tilhører hvert enkelt skjemafelt. 
+
+Som hovedregel bør man kun spørre om informasjon som er helt nødvendig å innhente. Du kan derfor opplyse i starten av skjemaet om at alle felt er påkrevde og må fylles ut (for å slippe å markere alle som påkrevde). Frivillige felt kan eventuelt markeres med "frivillig" i selve labelen til feltet.
+
+### Fordel innholdet i flere steg og bruk sporvalg
+Dersom du har mye innhold må skjemaet deles opp i flere sider. Hver side bør kun inneholde én informasjonsdel. Brukeren skal ikke trenge å ta mer en en avgjørelse per side. Se eksempel: [Starte enkeltpersonforetak](dsf).
+
+Brukeren skal slippe å svare på mer enn nødvendig. Dersom brukeren har svart nei på et spørsmål og du dermed kan skjule flere av stegene for ham, kan du gjøre dette med [dynamisk sporvalg](https://altinn.github.io/docs/altinn-studio/app-creation/ux/sporvalg/).
+
+### Disabled
+Ved å vise skjemafelt som disabled forventer man at brukeren skal vite hvorfor de ikke kan bruke elementet, men dette er ikke alltid tilfellet. Noen brukerer forstår heller ikke at feltet er deaktivert, som igjen kan føre til forvirring. Bruk av disabled bør derfor unngås. Dersom en handlingen av en eller annen grunn ikke er tillatt, kan dette i stedet forklares i en informasjonstekst.
+
+
+<hr>
+
 ## Retningslinjer for UI-komponenter
 
 UI-komponenter som foreløpig inngår i Altinns bibliotek:
 - [Tittel og avsnitt](/planlegging-og-design/guidelines/design/#-tittel-og-avsnitt)
-- [Logo og kontaktinfo](/planlegging-og-design/guidelines/design/#-logo-og-kontaktinformasjon) *(⚠️ Kommer snart til Altinn Studio)*
+- [Logo og kontaktinfo](/planlegging-og-design/guidelines/design/#-logo-og-kontaktinfo) *(⚠️ Kommer snart til Altinn Studio)*
 - [Inputfelt](/planlegging-og-design/guidelines/design/#-inputfelt)
 - [Avkrysningsbokser og radioknapper](/planlegging-og-design/guidelines/design/#-avkrysningsbokser-og-radioknapper)
 - [Knapp og lenke](/planlegging-og-design/guidelines/design/#-knapp-og-lenke)
@@ -160,7 +179,7 @@ For datoer lengre tilbake i tid, eller datoer brukeren kjenner godt, bør datofe
 {{% /panel %}}
 
 **Retningslinjer:**
-- Bruk alltid label på hver av de tre boksene (dag, måned, år), og legend for hele input-gruppen. 
+- Bruk alltid label på hver av de tre boksene (dag, måned, år), og ledetekst (legend) for hele input-gruppen. 
 - Om datagrunnlaget finnes, kan en spesifikk dato være foreslått i feltet. Ellers kan eksempelinnholdet være dagen i dag. 
 
 <br>
@@ -196,12 +215,17 @@ Radioknapper velges når:
 - Du ønsker at brukeren skal lese alle alternativene
 - Valgalternativene er ukjent for brukeren
 
+<br>
 
 **Retningslinjer:**
 - Radioknapper skal stå foran tilhørende tekst, og skal aldri stå alene.
 - Deaktiverte radioknapper bør unngås. Dersom et valg ikke er tilgjengelig bør det heller fjernes og forklares i tekst hvorfor det mangler. 
 
+<br>
+
 **Eksempel på bruk:**
+
+<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D5655%253A1419" allowfullscreen></iframe>
 
 
 <hr>
@@ -220,20 +244,49 @@ Nedtrekksliste velges når:
 
 **Eksempel på bruk:**
 
-<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D1746%253A7662" allowfullscreen></iframe>
+<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D5655%253A1605" allowfullscreen></iframe>
 
 <br>
  
 <hr>
 
+### ❖ Hjelpetekst
+Hjelpetekster er små tekstsnutter som kan benyttes for å gi brukeren ekstra veiledning i utfylling av skjemafelter. Man kan også benytte feltet til å forklare et regelverk, fremmede begreper, eller utdype hvorfor man ber om informasjonen.  
 
+<br>
 
-### ❖ Valideringsmeldinger
+**Retningslinjer:**
+- Hjelpetekst plasseres i sammenheng med en label eller tittel som skal utdypes.
+- Dersom innholdet er avgjørende informasjon for at brukeren skal kunne fylle ut skjemaet riktig, bør det heller plasseres i en infotekst i grensesnittet (under labelen). 
 
+<br>
 
 **Eksempel på bruk:**
 
-<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D1746%253A6099" allowfullscreen></iframe>
+<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D5711%253A1788" allowfullscreen></iframe>
+
+### ❖ Feilmeldinger
+Vær kort og tydelig i formuleringen av feilmeldingene og sørg for at brukeren vet hva som må gjøres for å komme videre. Å skrive "Feltet er påkrevd" gir ikke brukeren en forklaring på hva som er feil. 
+
+**Eksempel på forklarende feilmeldinger:** 
+- "Postnummer må ha 4 siffer"
+- "Du må velge minst ett leveringsalternativ"
+- "For å sende inn skjemaet må du bekrefte at navnet er korrekt ved å huke av i avkrysningsboksen"
+
+Les mer om å formidle feil i skjema på [UU-tilsynets nettsider](https://www.uutilsynet.no/wcag-standarden/skjema/38#formidle_feil_i_skjema).
+
+
+**Retningslinjer:**
+
+- Feilmeldingstekst bør gjenta nøkkelord fra label
+- Kravene for å fylle ut skjemaet riktig skal tydelig fremgå av skjemaet uten at brukeren trenger å få noen feilmeldinger fra valideringen for å forstå dette.
+- Dersom skjemaet har feil når brukeren forsøker å gå videre, skal feilmeldingsboksen i toppen vise alle feilene og lenke til de feltene feilen gjelder. Feilene skal forsvinne etterhvert som de blir utbedret. ⚠️ NB: Denne funksjonaliteten er ikke tilgjengelig i Altinn Studio enda.
+
+<br>
+
+**Eksempel på bruk:**
+
+<iframe style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwnBveAG2ikUspFsQwM3GNE%2FPrototyping-av-skjematjenester%3Fnode-id%3D5711%253A2073" allowfullscreen></iframe>
 
 <hr>
 

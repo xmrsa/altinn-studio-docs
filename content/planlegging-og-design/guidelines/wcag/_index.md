@@ -24,7 +24,7 @@ Sjekk at lenker, label og knapper har forklarende tekster. Ta en vurdering på o
 Det er viktig at man er bevisst på om det blir brukt knapper eller lenker, da skjermlesere kan få problemer med å tolke funksjonaliteten. 
 
 - **Feilmeldinger** <br>
-Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/innhold/#formulering-av-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
+Du er selv ansvarlig for at [korrekte feilmeldinger](/planlegging-og-design/guidelines/design/#-feilmeldinger) blir lagt inn på hvert av skjemafeltene. 
 <!--
 - alt- og title-attributter skal brukes til å gi tilleggsinformasjon til bilder og andre objekter.
 - label-element skal ha et for-attributt som matcher skjemakontrollen det tilhører, med mindre label omslutter input-feltet.
