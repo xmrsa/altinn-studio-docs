@@ -5,7 +5,15 @@ description: Vi har laget et Prototype-Kit til deg - En samling av sidemaler og 
 weight: 3
 ---
 
-<iframe src="https://player.vimeo.com/video/365886635?title=0&amp;byline=0&amp;portrait=0&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;app_id=122963" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="Figma demo" data-ready="true" style="width: 100%; height: 400px;"></iframe>
+
+<figure class="video_container">
+  <video style="border: 3px solid rgb(0 0 0 / 90%);border-radius: 9px;" width="100%" controls="true" allowfullscreen="true" autoplay loop muted playsinline poster="path/to/poster_image.png">
+    <source src="altinnfigma.mp4" type="video/mp4">
+    <source src="altinnfigma.ogg" type="video/ogg">
+    <source src="altinnfigma.webm" type="video/webm">
+  </video>
+</figure>
+
 
 <br>
 <br>
