@@ -64,9 +64,14 @@ Ved å vise skjemafelt som disabled forventer man at brukeren skal vite hvorfor 
 UI-komponenter som foreløpig inngår i Altinns bibliotek:
 - [Tittel og avsnitt](/planlegging-og-design/guidelines/design/#-tittel-og-avsnitt)
 - [Logo og kontaktinfo](/planlegging-og-design/guidelines/design/#-logo-og-kontaktinfo) *(⚠️ Kommer snart til Altinn Studio)*
-- [Inputfelt](/planlegging-og-design/guidelines/design/#-inputfelt)
-- [Avkrysningsbokser og radioknapper](/planlegging-og-design/guidelines/design/#-avkrysningsbokser-og-radioknapper)
 - [Knapp og lenke](/planlegging-og-design/guidelines/design/#-knapp-og-lenke)
+- [Inputfelt](/planlegging-og-design/guidelines/design/#-inputfelt)
+- [Dato](/planlegging-og-design/guidelines/design/#-datovelger)
+- [Avkrysningsbokser](/planlegging-og-design/guidelines/design/#-avkrysningsbokser)
+- [Radioknapper](/planlegging-og-design/guidelines/design/#-radioknapper)
+- [Nedtrekksliste](/planlegging-og-design/guidelines/design/#-nedtrekksliste)
+- [Hjelpetekst](/planlegging-og-design/guidelines/design/#-hjelpetekst)
+- [Feilmeldinger](/planlegging-og-design/guidelines/design/#-feilmeldinger)
 - [Filopplasting](/planlegging-og-design/guidelines/design/#-filopplasting)
 
 
