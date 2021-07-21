@@ -1,4 +1,4 @@
-# Altinn Studio docs
+# Altinn 3 docs
 
 Documentation for Altinn Studio: https://docs.altinn.studio/
 
@@ -47,3 +47,6 @@ Press Ctrl+C to stop
 ```
 
 The solution is now running locally at http://localhost:1313
+
+
+![Altinn 3 docs forside](altinn-docs-3.png "Altinn 3 docs")
