@@ -5,20 +5,59 @@ description: Overview of changes introduced in v3 of app frontend
 toc: true
 ---
 
-## 3.9.1 (2021-07-01) Support for redirect to require higher authentication level for stateless app
+## 3.10.1 (2021-08-16) - App frontend includes partyID for stateless apps
+App frontend includes partyID in calls for fetching stateless data.
+Issue [#6609](https://github.com/Altinn/altinn-studio/issues/6609)
+
+## 3.10.0 (2021-08-13) - Log out functionality
+Added functionality for log out from app frontend.
+Issue [#6620](https://github.com/Altinn/altinn-studio/issues/6620)
+
+## 3.9.9 (2021-08-12) - Dependency patching
+Patching of external dependencies for w32.
+Issue [#6600](https://github.com/Altinn/altinn-studio/issues/6600).
+
+## 3.9.8 (2021-08-05) - Dependency patching
+Patching of external dependenecies for w31.
+Issue [#6571](https://github.com/Altinn/altinn-studio/issues/6571).
+
+## 3.9.7 (2021-08-03) - Bugfix print view
+Fixed a bug where the print view for Altinn Apps would display an empty container.
+Issue [#6578](https://github.com/Altinn/altinn-studio/issues/6578).
+
+## 3.9.6 (2021-08-02) - Dependency patching
+Patching of external dependenecies for w30.
+Issue [#6571](https://github.com/Altinn/altinn-studio/issues/6571).
+
+## 3.9.5 (2021-07-28) - Bugfix for mobile view during app startup
+Fixed a bug where the app modal would behave inconsistent during app startup on mobile devices.
+Issue [#6558](https://github.com/Altinn/altinn-studio/issues/6558).
+
+## 3.9.4 (2021-07-23) - Bugfix validation trigger for groups.
+Fix a bug where validations would not be triggered when closing a repeating group by clicking `Edit` button when trigger was present.
+Issue [#6427](https://github.com/Altinn/altinn-studio/issues/6427).
+
+## 3.9.3 (2021-07-23) - Dependency patching
+Patching of external dependencies for w29.
+
+## 3.9.2 (2021-07-02) - Dependency patching
+Patching of external dependencies for w26.
+Issue [#6385](https://github.com/Altinn/altinn-studio/issues/6385).
+
+## 3.9.1 (2021-07-01) - Support for redirect to require higher authentication level for stateless app
 Fix for bug that didn't redirect user to login page with allowed authentication levels if logged in with a too low level.
 Issue [#6506](https://github.com/Altinn/altinn-studio/issues/6506).
 
-## 3.8.0 (2021-06-29) Several updates to validation functionality
+## 3.8.0 (2021-06-29) - Several updates to validation functionality
 - Support for adding custom error messages to client side validations (JSON schema).
 - Support for specifying single field validation (server) as FIXED to make sure resolved validation error messages are removed.
 - Fixes bug where single field validation that returned empty (no errors/warnings) did not remove existing validation messages.
 Issue [#5747](https://github.com/Altinn/altinn-studio/issues/5747).
 
-## 3.7.0 (2021-06-29) Support for posting data from stateless app
+## 3.7.0 (2021-06-29) - Support for posting data from stateless app
 Issue [#6194](https://github.com/Altinn/altinn-studio/issues/6194).
 
-## 3.6.14 (2021-06-22)- Bug fix for duplicated validation messages
+## 3.6.14 (2021-06-22) - Bug fix for duplicated validation messages
 Fixed a bug that caused validation messages on a FileUpload component to be displayed twice.
 Issue [#6400](https://github.com/Altinn/altinn-studio/issues/6400).
 
