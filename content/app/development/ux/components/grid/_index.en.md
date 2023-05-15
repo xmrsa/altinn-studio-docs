@@ -80,11 +80,17 @@ description: The Grid component is used to visually arrange components in a tabl
   {
     "id": "fordeling-bolig",
     "type": "Input",
+    "textResourceBindings": {
+          "title": "Prosent av gjeld i boliglån"
+          },
     ...
   },
   {
     "id": "fordeling-studie",
     "type": "Input",
+     "textResourceBindings": {
+          "title": "Prosent av gjeld i studielån"
+          },
     ...
   },
   {
@@ -96,6 +102,9 @@ description: The Grid component is used to visually arrange components in a tabl
     "id": "belop-bolig",
     "type": "Input",
     "readOnly": true,
+    "textResourceBindings": {
+          "title": "Gjeld i boliglån"
+          },
     ...
   },
   {
@@ -113,6 +122,9 @@ description: The Grid component is used to visually arrange components in a tabl
   {
     "id": "innhentet-bolig",
     "type": "Checkboxes",
+    "textResourceBindings": {
+          "title": "Er fordelingen av boliglånsgjeld verifisert?"
+          },
     ...
   },
   {
@@ -218,6 +230,9 @@ the id of the component you want to display in the cell.
 ```
 
 In the above configuration, the `myComponent` is assumed to be a component that is configured elsewhere in the layout.
+
+When referencing to a `component` it is very important that the component-definition has a `title` (and `description`) that decribes the combination of the row-header and the column header. This is necessary to comply to WCAG (Universell utforming), as the screen-reader will refer to this text. This will also be the text that is shown when having a large zoom in the browser, or when using a mobile phone, see the example in the section [smaller screens](#mobile-support). The title and description of the individual component is also used in [a Summary](../../pages/summary). When the components are displayed as a table, the `title` and `description` text resources are not visible in the layout, but will be used for accessibility purposes.
+
 Currently, a selection of components are supported in the Grid component. These are:
 
 - Button
@@ -237,11 +252,6 @@ Currently, a selection of components are supported in the Grid component. These 
 
 For RadioButtons and Checkboxes, the option label will not be displayed if there is only one option to choose from
 when being displayed inside a Grid.
-
-When displayed in a table, components will not render their `title` and `description` text resources. However, these
-text resources should still be set on the component, as they will be used for accessibility purposes, and will still
-be displayed when the component is displayed outside of a Grid - such as on [smaller screens](#mobile-support) and in
-[a Summary](../../pages/summary).
 
 ### Widths, text and alignment
 
