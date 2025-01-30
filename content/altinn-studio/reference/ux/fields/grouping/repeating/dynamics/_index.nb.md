@@ -17,7 +17,7 @@ vi kan skjule en rad dersom fornavn i datamodellen er lik "John".
 {
   "id": "myGroup",
   "type": "RepeatingGroup",
-  "hiddenRow": ["equal", ["dataModel", "firstName"], "John"],
+  "hiddenRow": ["equals", ["dataModel", "firstName"], "John"],
   ...
 }
 ```
@@ -29,7 +29,7 @@ vi kan skjule en rad dersom fornavn i datamodellen er lik "John".
 {
   "id": "myGroup",
   "type": "Group",
-  "hiddenRow": ["equal", ["dataModel", "firstName"], "John"],
+  "hiddenRow": ["equals", ["dataModel", "firstName"], "John"],
   ...
 }
 ```

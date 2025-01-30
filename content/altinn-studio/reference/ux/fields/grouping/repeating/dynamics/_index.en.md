@@ -17,7 +17,7 @@ hide a row when the firstName within the data model is equal to "John".
 {
   "id": "myGroup",
   "type": "RepeatingGroup",
-  "hiddenRow": ["equal", ["dataModel", "firstName"], "John"],
+  "hiddenRow": ["equals", ["dataModel", "firstName"], "John"],
   ...
 }
 ```
@@ -29,7 +29,7 @@ hide a row when the firstName within the data model is equal to "John".
 {
   "id": "myGroup",
   "type": "Group",
-  "hiddenRow": ["equal", ["dataModel", "firstName"], "John"],
+  "hiddenRow": ["equals", ["dataModel", "firstName"], "John"],
   ...
 }
 ```
